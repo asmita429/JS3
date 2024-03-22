@@ -142,11 +142,15 @@ console.log(num.sort());       //100, 50, 80, 84, 99
 
 let month = ["january","july","march","august"];
 
-month.splice(0,1);
-month.splice(1,0,"june");
+// month.splice(0,1);
+// month.splice(1,0,"june");
+
+month.splice(0,2,"july","june");
 console.log(month);
 
 let subs = ["c","c++","html","javascript","python","java","c#","sql"];
-subs.reverse();
-console.log(subs.indexOf("javascript"));        //4
+// subs.reverse();
+// console.log(subs.indexOf("javascript"));        //4
+
+console.log(subs.reverse().indexOf("javascript"));
 
